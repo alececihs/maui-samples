@@ -35,6 +35,22 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Button 
+                x:Name="HideMenuItemsBtn"
+                Text="Hide menu items"
+                Clicked="HideMenuItemsBtn_Clicked"
+                HorizontalOptions="Center" />
+            <Button 
+                x:Name="ShowMenuItemsBtn"
+                Text="Show menu items"
+                Clicked="ShowMenuItemsBtn_Clicked"
+                HorizontalOptions="Center" />
+            <Button 
+                x:Name="PushModal"
+                Text="Push modal"
+                Clicked="PushModal_Clicked"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
  

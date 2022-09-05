@@ -20,5 +20,22 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+	private void HideMenuItemsBtn_Clicked(object sender, EventArgs e)
+	{
+		AppShell appShell = Shell.Current as AppShell;
+		appShell.HideNumbers();
+	}
+
+	private void ShowMenuItemsBtn_Clicked(object sender, EventArgs e)
+	{
+        AppShell appShell = Shell.Current as AppShell;
+		appShell.ShowNumbers();
+    }
+
+	private void PushModal_Clicked(object sender, EventArgs e)
+	{
+		Navigation.PushModalAsync(new NewPage1());
+	}
 }
 

@@ -60,4 +60,10 @@
 	  <MauiFont Include="Resources\IconFont.cs" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

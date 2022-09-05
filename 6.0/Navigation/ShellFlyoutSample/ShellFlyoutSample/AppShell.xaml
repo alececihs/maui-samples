@@ -6,25 +6,25 @@
     xmlns:local="clr-namespace:ShellFlyoutSample"
     Shell.FlyoutBehavior="Flyout">
 
-    <FlyoutItem Title="One" FlyoutIcon="{StaticResource IconOne}">
+    <FlyoutItem Title="One" FlyoutIcon="{StaticResource IconOne}" x:Name="One">
         <ShellContent
             Title="One"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="OnePage" />
     </FlyoutItem>
-    <FlyoutItem Title="Two" FlyoutIcon="{StaticResource IconTwo}">
+    <FlyoutItem Title="Two" FlyoutIcon="{StaticResource IconTwo}" x:Name="Two">
         <ShellContent
             Title="Two"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="TwoPage" />
     </FlyoutItem>
-    <FlyoutItem Title="Three" FlyoutIcon="{StaticResource IconThree}">
+    <FlyoutItem Title="Three" FlyoutIcon="{StaticResource IconThree}" x:Name="Three">
         <ShellContent
             Title="Three"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="ThreePage" />
     </FlyoutItem>
-    <FlyoutItem Title="Four" FlyoutIcon="{StaticResource IconFour}">
+    <FlyoutItem Title="Four" FlyoutIcon="{StaticResource IconFour}" x:Name="Four">
         <ShellContent
             Title="Four"
             ContentTemplate="{DataTemplate local:MainPage}"
